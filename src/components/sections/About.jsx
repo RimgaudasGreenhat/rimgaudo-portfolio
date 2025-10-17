@@ -3,13 +3,12 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
+    "BootStrapCSS",
+    "JavaScript",
     "TailwindCSS",
-    "Svelte",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "MySQL", "Insomnia", "ExpressJS", "XAMPP"];
 
   return (
     <section
@@ -20,13 +19,12 @@ export const About = () => {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent text-center">
             {" "}
-            About Me
+            Apie mane
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Esu žingeidus visada pasiryžęs mokintis, komunikabikus programuotojas mylintis žalią spalvą :)
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -36,7 +34,7 @@ export const About = () => {
                   {frontendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                     >
@@ -52,7 +50,7 @@ export const About = () => {
                   {backendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
                     "
                     >

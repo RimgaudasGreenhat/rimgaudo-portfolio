@@ -72,7 +72,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://rimgaudasgreenhat.github.io/45-wordyle/"
                   className="text-green-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →

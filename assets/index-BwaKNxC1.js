@@ -76,7 +76,7 @@ Error generating stack: `+a.message+`
                       transition\r
                       hover:bg-blue-500/20 hover:-translate-y-0.5\r
                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]\r
-                    `,children:T},_))}),S.jsx("div",{className:"flex justify-between items-center",children:S.jsx("a",{href:"#",className:"text-green-400 hover:text-blue-300 transition-colors my-4",children:"View Project →"})})]}),S.jsxs("div",{className:`\r
+                    `,children:T},_))}),S.jsx("div",{className:"flex justify-between items-center",children:S.jsx("a",{href:"https://rimgaudasgreenhat.github.io/45-wordyle/",className:"text-green-400 hover:text-blue-300 transition-colors my-4",children:"View Project →"})})]}),S.jsxs("div",{className:`\r
               glass p-6 rounded-xl border border-white/10 \r
               hover:-translate-y-1 hover:border-blue-500/30\r
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]\r

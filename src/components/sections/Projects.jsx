@@ -34,7 +34,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://rimgaudasgreenhat.github.io/tik-tack-toe/"
                   className="text-green-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →

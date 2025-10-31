@@ -64,40 +64,37 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+              <h3 className="text-xl font-bold mb-4"> 🏫 Išsilavinimas </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> Programavimo kompetencijų įgijimas, Programavimo neformalioji programa </strong> 
+                    Baltic Institute of Technology (2025/03 - 2025/09 (880 val.) )
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Studijų programos metu įgyjau stiprius web programavimo, JavaScript bei front-end ir back-end programinės įrangos kurimo pagrindus ir išmokau objektinio programavimo Node.js aplinkoje.
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <h3 className="text-xl font-bold mb-4"> 💼 Darbo patirtis </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Statybinių medžiagų technologas <br></br> UAB Autokausta (2021-2024){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    Sukūriau ir įgyvendinau kokybės kontrolės planus, užtikrindamas nustatytų betono mišinių kokybės standartų laikymąsi.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Operatorius-plovėjas Pieno žvaigždių filiale Kauno pienas (2019/02 - 2019/08){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Valdžiau ir prižiūrėjau įranga varškės gaminių gamybai.
                   </p>
                 </div>
               </div>
